@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER*/
+header{
+    background-color: lightskyblue;
+    padding: 10px 0px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 100px;
+}
+
+.row_header{
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 2;
+    background-color: goldenrod;
+}
+
+.column-25{
+    width: 25%;
+}
+
+#left{
+    padding-left: 10px;
+}
+
+#right{
+    text-align: right;
+    padding-right: 10px;
+}
+
+.column-50{
+    width: 50%;
+    text-align: center;
+}
+
+
+/* PRIMO BLOCCO MAIN*/
+.background_blue{
+    background-color: blue;
+}
+
+.row_plum-block{
+    padding: 50px 100px;
+}
+
+.column-100{
+    width: 100%;
+    height: 400px;
+    background-color: plum;
+}
+
+/* 2°/3°/4° BLOCCO MAIN*/
+.row_skypink-block{
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    padding: 50px 0px;
+}
+
+.column-60{
+    width: 60%;
+}
+
+.column-40{
+    width: 40%;
+}
+
+.background_pink{
+    background-color: pink;
+}
+
+.background_skyblue{
+    background-color: skyblue;
+}
+
+.background_grey{
+    background-color: lightslategray;
+}
+
+.order_two{
+    order: 2;
+}
+
+.dashed_border{
+    border: 1px dashed black;
+}
+
+
+/* QUINTO BLOCCO MAIN*/
+.row_green-block{
+    padding: 40px 0px;
+}
+.column-green{
+    height: 800px;
+    background-color: green
+}
+
+
+/* PRIMO BLOCCO MAIN */
+.background_oxidian{
+    background-color: #282828;
+    border-bottom: 1px solid white;
+}
+
+.row_aqua-block{
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    padding: 10px 0px 20px 0px;
+}
+
+.column-pink{
+    width: 40%;
+    background-color: hotpink;
+}
+
+
+.column-aqua{
+    width: 15%;
+    background-color: aqua;
+    border: 2px dashed white;
+}
+
+
+/* SECONDO BLOCCO MAIN */
+.row_aquamarine-block{
+    padding: 20px 0px;
+}
+
+.column-aquamarine{
+    padding: 10px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between
+}
+
+.button{
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: lightcoral;
+}
