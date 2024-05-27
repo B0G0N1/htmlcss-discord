@@ -130,27 +130,41 @@ main>div:first-of-type{
 
 /* Quinto Container Main */
 .column_100{
-    width: 100%;;
-    height: 800px;
-    background-color: darkgreen;
+    height: 850px;
     margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column_100>h2:last-of-type{
+    margin: 30px 0px;
+    padding: 30px 50px 0px 50px;
+    background-image: url("../img/stars.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bottom{
+    color: white;
+    background-color: skyblue;
 }
 
 
 /* Primo Container Footer */
-.background_oxidian{
+footer{
     background-color: #282828;
-    border-bottom: 1px solid white;
 }
 
-.column-pink{
-    width: 40%;
+.column-28{
+    width: 28%;
     background-color: hotpink;
     border: 2px dashed black;
 }
 
-.column-aqua{
-    width: 15%;
+.column-18{
+    width: 18%;
     background-color: aqua;
     border: 2px dashed white;
 }
