@@ -153,11 +153,12 @@ main>div:first-of-type{
 /* Primo Container Footer */
 footer{
     background-color: #282828;
-    padding-top: 20px;
+    padding-top: 60px;
 }
 
 .column-33{
     width: calc(100% / 3);
+    margin-top: 20px;
 }
 
 .column-16{
@@ -177,12 +178,22 @@ footer li{
     margin: 20px 0px;
 }
 
+.language{
+    display: flex;
+    margin-top: 20px;
+}
+
+.flag{
+    width: 30px;
+    margin-right: 10px;
+}
+
 
 /* Secondo Container Footer */
 .column_full{
     width: 100%;
     border-top: 2px solid white;
-    margin-bottom: 20px;
+    margin: 20px 0px;
     display: flex;
     justify-content: space-between;
 }
