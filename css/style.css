@@ -17,39 +17,52 @@ header{
     padding: 0px 100px;
 }
 
-.row_header{
+.row{
     display: flex;
     flex-wrap: wrap;
-    line-height: 2;
-    background-color: goldenrod;
 }
 
-.column-25{
-    width: 25%;
+.column-60{
+    width: 60%;
+    background-color: orange;
+    text-align: center;
 }
 
-#left{
+.column-20{
+    width: 20%;
+    background-color: orange;
+}
+
+.left{
     padding-left: 10px;
 }
 
-#right{
+.right{
     text-align: right;
     padding-right: 10px;
 }
 
-.column-50{
-    width: 50%;
-    text-align: center;
+.vertical_centering{
+    padding: 10px 0px;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header li{
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.dashed_border{
+    border: 1px dashed black;
 }
 
 
-/* PRIMO BLOCCO MAIN*/
+/* Primo Container Main*/
 .background_blue{
     background-color: blue;
-}
-
-.row_plum-block{
-    padding: 50px 100px;
 }
 
 .column-100{
@@ -58,20 +71,23 @@ header{
     background-color: plum;
 }
 
-/* 2°/3°/4° BLOCCO MAIN*/
-.row_skypink-block{
-    display: flex;
-    flex-wrap: wrap;
-    height: 600px;
-    padding: 50px 0px;
+.first-block_padding{
+    padding: 30px 120px;
 }
 
-.column-60{
-    width: 60%;
+
+/* Container Centrali Main*/
+.column-70{
+    width: 70%;
 }
 
-.column-40{
-    width: 40%;
+.column-30{
+    width: 30%;
+}
+
+.column-70, .column-30{
+    height: 400px;
+    margin: 30px 0px;
 }
 
 .background_pink{
@@ -90,39 +106,27 @@ header{
     order: 2;
 }
 
-.dashed_border{
-    border: 1px dashed black;
-}
 
-
-/* QUINTO BLOCCO MAIN*/
-.row_green-block{
-    padding: 40px 0px;
-}
-.column-green{
+/* Quinto Container Main */
+.column_100{
+    width: 100%;;
     height: 800px;
-    background-color: green
+    background-color: darkgreen;
+    margin: 30px 0px;
 }
 
 
-/* PRIMO BLOCCO MAIN */
+/* Primo Container Footer */
 .background_oxidian{
     background-color: #282828;
     border-bottom: 1px solid white;
 }
 
-.row_aqua-block{
-    display: flex;
-    flex-wrap: wrap;
-    height: 600px;
-    padding: 10px 0px 20px 0px;
-}
-
 .column-pink{
     width: 40%;
     background-color: hotpink;
+    border: 2px dashed black;
 }
-
 
 .column-aqua{
     width: 15%;
@@ -130,21 +134,23 @@ header{
     border: 2px dashed white;
 }
 
-
-/* SECONDO BLOCCO MAIN */
-.row_aquamarine-block{
-    padding: 20px 0px;
+.column-pink, .column-aqua{
+    height: 600px;
+    margin: 30px 0px;
 }
 
-.column-aquamarine{
-    padding: 10px;
+
+/* Secondo Container Footer */
+.column_full{
+    width: 100%;
+    padding: 10px 0px;
     background-color: aquamarine;
     display: flex;
     justify-content: space-between
 }
 
-.button{
+.box_footer{
     padding: 5px 10px;
-    font-size: 12px;
+    font-size: 15px;
     background-color: lightcoral;
 }
