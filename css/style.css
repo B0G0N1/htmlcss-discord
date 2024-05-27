@@ -8,6 +8,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 /* HEADER*/
 header{
     background-color: #255EE9;
@@ -67,6 +68,7 @@ header button{
     padding: 20px 0px;
 }
 
+
 /* Primo Container Main*/
 main>div:first-of-type{
     background-image: url("../img/jumbo.png");
@@ -114,7 +116,7 @@ main>div:first-of-type{
     width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding-top: 30px;
 }
 
 .column-70, .column-30{
@@ -124,6 +126,20 @@ main>div:first-of-type{
 
 .order_two{
     order: 2;
+}
+
+.background_grey{
+    background-color: #e5e5e5;
+}
+
+.wave{
+    background-image: url("../img/wave.svg");
+    height: 100px;
+    filter: invert(90%);
+}
+
+.upsidedown{
+    transform: scaleY(-1);
 }
 
 
